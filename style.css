@@ -761,7 +761,7 @@ footer .social i.fa-x-twitter {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .max-width {
         padding: 0 50px;
     }
@@ -808,5 +808,15 @@ footer .social i.fa-x-twitter {
     .services .services-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
+    }
+
+    .contact .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact .contact-content .column {
+        width: 80%;
     }
 }
